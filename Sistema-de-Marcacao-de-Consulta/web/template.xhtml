@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <a href="css/bootstrap-theme.css.map"></a>
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <a href="css/bootstrap.css.map"></a>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <title><ui:insert name="title"></ui:insert></title>
+    </h:head>
+    <h:body>
+       
+        <div class="container">
+	<div class="row">
+        
+        <p class="lead">Sistema de Marcação de Consulta</p>
+       
+		
+        <div class="btn-group show-on-hover">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            Cadastros <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Paciente</a></li>
+            <li><a href="#">Médico</a></li>
+            <li><a href="#">Plano de Saúde</a></li>
+           
+          </ul>
+        </div>
+        </div>
+            </div>
+         <ui:insert name="corpo">
+        </ui:insert>
+    </h:body>
+</html>
+
